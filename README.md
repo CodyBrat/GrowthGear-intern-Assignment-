@@ -1,77 +1,70 @@
-# GenAI Analytics Dashboard
+# Getting Started with Create React App
 
-A React-based dashboard prototype for a GenAI Analytics tool that demonstrates natural language query interaction and data visualization.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Overview
+## Available Scripts
 
-This dashboard showcases how non-technical users can interact with data using natural language queries. The application allows users to:
+In the project directory, you can run:
 
-- Ask complex business questions in plain English
-- Get instant, visual insights from data
-- View query history for quick re-runs
-- Explore different data visualizations based on query intent
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Natural Language Query Input:** Ask business questions in plain text with AI-powered query suggestions
-- **Query Processing Simulation:** Backend request simulation with appropriate loading states
-- **Data Visualization:** Dynamic charts based on query type (bar, line, pie charts)
-- **Query History:** Track and reuse previous queries
-- **Responsive Design:** Works seamlessly across devices
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Technical Stack
+### `npm test`
 
-- **Frontend Framework:** React.js
-- **State Management:** Redux with Redux Toolkit
-- **UI Components:** Material-UI 
-- **Styling:** Tailwind CSS
-- **Data Visualization:** Recharts
-- **Build Tool:** Create React App
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Getting Started
+### `npm run build`
 
-### Prerequisites
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Node.js (v14+)
-- npm or yarn
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Installation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Clone the repository
-2. Install dependencies:
+### `npm run eject`
 
-```bash
-npm install
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-3. Start the development server:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-npm start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Usage
+## Learn More
 
-1. Type a business question in the query input field
-2. Alternatively, select from the suggested queries
-3. View the visualization of the query results
-4. Check your query history on the left panel
-5. Click on any previous query to run it again
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Example Queries
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- "Show sales performance by region"
-- "Compare revenue across product categories"
-- "What are the top 5 customers by revenue?"
-- "Show monthly website traffic trends"
-- "Analyze customer churn rate by segment"
+### Code Splitting
 
-## Architecture
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-The application follows a standard Redux architecture:
-- Components for UI presentation
-- Slices for state management
-- API simulation for data fetching
-- Selectors for accessing state
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
